@@ -1,25 +1,36 @@
 import React, { Component } from 'react';
-import logo from '../../logo.svg';
+import logo from './splash.svg';
 import './index.scss';
+import {Container, Row, Col} from 'reactstrap';
 
 class HomePage extends Component {
     render() {
         return (
             <div className="App">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <p>
-                        Edit <code>src/App.js</code> and save to reload.
-                    </p>
-                    <a
-                        className="App-link"
-                        href="https://reactjs.org"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Learn React
-                    </a>
-                </header>
+                <div className="App-header">
+                    <Container>
+                        <Row>
+                            <Col md="6" xs='12'>
+                                <div className='divCenter'>
+                                    <div>
+                                        <h4 className='subText'>
+                                            EXTRACT COLORS FROM LOGOS <br/>
+                                            AND IMAGES
+                                        </h4>
+                                        <p>&nbsp;</p>
+                                        <p className='text'>
+                                            RBGCOLORS also powers Multicolr, our color search lab, and is available for licensing as a hosted API. Learn more about MulticolorEngine, its pricing and documentation.
+                                        </p>
+                                        <p className='text'>
+                                            RBGCOLORS also powers Multicolr, our color search lab, and is available for licensing as a hosted API. Learn more about MulticolorEngine, its pricing and documentation.
+                                        </p>
+                                    </div>
+                                </div>
+                            </Col>
+                            <Col md="6" xs='12'><img src={logo} alt='logo'/></Col>
+                        </Row>
+                    </Container>
+                </div>
             </div>
         );
     }

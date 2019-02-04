@@ -35,11 +35,12 @@ class Navigation extends Component{
                         <div className='logo'>
                             <div className={open ? 'txt-black' : ''}>
                                 <div className='imgLogo'>
-                                    <img src={Logo} style={{width:"100%", height:"100%"}}/>
+                                    <img className='App-logo' src={Logo} style={{width:"100%", height:"100%"}} alt={'RGBCOLORS-img'}/>
+                                    <h5 className='logoText'>RGBCOLORS</h5>
                                 </div>
                             </div>
                             <div className='nav-lg'>
-                                <div>
+                                <div className='item'>
                                     <Link to='/'>
                                         <span> Home</span>
                                     </Link>

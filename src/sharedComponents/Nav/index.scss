@@ -1,8 +1,19 @@
 //@import '../../index';
 
 .imgLogo {
-  width:15%;
+  width:4%;
   padding: 0 15px;
+  display: flex;
+  position: relative;
+  top:9px;
+}
+
+.logoText {
+  padding: 0 5px;
+  color: #111;
+  position: relative;
+  top:-2px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .txt-#111{
@@ -20,11 +31,12 @@
     color:#111;
   }
   .fm-navbar-body {
-    a{
+    Link{
       color:rgb(85, 26, 139)
     }
   }
 }
+
 .fm-navbar-menu {
   position: fixed;
   top: 0;
@@ -39,13 +51,15 @@
   border-bottom: 1px solid #ebebeb;
 }
 .fm-navbar-body {
-  padding: 15px 0;
+  padding: 10px 0;
   display: grid;
+  //background: white;
+  //border-bottom: 1px solid #ebebeb;
   // background:$purple;
   // border-bottom:2px solid yellow;
   //    background:#3333337a;
   //    grid-template-columns:auto auto;
-  link {
+  Link {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #fff;
@@ -56,7 +70,7 @@
   .logo {
     color: #fff;
     //font-family: $font1;
-    padding:10px 20px;
+    padding:0px 20px;
   }
 
 }
@@ -106,7 +120,7 @@
     display: inline-block;
     padding: 0 1vw;
     margin: 0 1vw;
-    color:#111;
+    color:#212121;
     text-transform: uppercase;
     a{
       font-size:2vw;
@@ -118,28 +132,35 @@
 
 .nav-lg{
   display: grid;
-  padding:0 15px;
+  padding:0px 15px;
   div{
     position: absolute;
     right:20px;
-    top:19px;
+    top:20px;
+    font-family: 'Montserrat', sans-serif;
   }
 
   a{
-    font-size:18px !important;
+    font-size:14px !important;
     padding:10px 20px;
+    text-transform: uppercase;
+    color:#212121;
 
     span{
-      transition: all .4s ease;
+      transition: all .2s ease;
     }
     span:hover{
-      background: rgba(40,40,255,.1);
+      background: #F50057;
       padding: 10px 25px;
       border-radius:5px;
       color:white;
     }
   }
+  a:hover{
+    text-decoration: none;
+  }
 }
+
 @media screen and (max-width:769px){
   .bt-menu{
     display: block

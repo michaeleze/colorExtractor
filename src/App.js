@@ -7,7 +7,7 @@ import Navigation from './sharedComponents/Nav';
 class App extends Component {
   render() {
     return (
-        <div>
+        <div className='bg-grey-lighter'>
             <Navigation/>
             <Switch>
                 <Route exact path='/' render={(props)=><HomePage {...props}/>}/>
