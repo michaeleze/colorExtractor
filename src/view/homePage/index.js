@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './splash.svg';
 import './index.scss';
 import {Container, Row, Col} from 'reactstrap';
+import Form from '../../sharedComponents/Form';
 
 class HomePage extends Component {
     render() {
@@ -13,17 +14,20 @@ class HomePage extends Component {
                             <Col md="6" xs='12'>
                                 <div className='divCenter'>
                                     <div>
-                                        <h4 className='subText'>
+                                        <h3 className='subText'>
                                             EXTRACT COLORS FROM LOGOS <br/>
                                             AND IMAGES
-                                        </h4>
-                                        <p>&nbsp;</p>
+                                        </h3>
+                                        <br/>
+                                        {/*<p>&nbsp;</p>*/}
                                         <p className='text'>
                                             RBGCOLORS also powers Multicolr, our color search lab, and is available for licensing as a hosted API. Learn more about MulticolorEngine, its pricing and documentation.
                                         </p>
                                         <p className='text'>
                                             RBGCOLORS also powers Multicolr, our color search lab, and is available for licensing as a hosted API. Learn more about MulticolorEngine, its pricing and documentation.
                                         </p>
+                                        <br/>
+                                        <Form/>
                                     </div>
                                 </div>
                             </Col>
