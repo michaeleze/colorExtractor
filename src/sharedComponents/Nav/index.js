@@ -34,9 +34,9 @@ class Navigation extends Component{
                     <div className={`fm-navbar-body ${navbarWhite}`}>
                         <div className='logo'>
                             <div className={open ? 'txt-black' : ''}>
-                                <span>
+                                <div className='imgLogo'>
                                     <img src={Logo} style={{width:"100%", height:"100%"}}/>
-                                </span>
+                                </div>
                             </div>
                             <div className='nav-lg'>
                                 <div>

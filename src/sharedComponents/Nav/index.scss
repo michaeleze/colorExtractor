@@ -1,5 +1,10 @@
 //@import '../../index';
 
+.imgLogo {
+  width:15%;
+  padding: 0 15px;
+}
+
 .txt-black{
   color:black;
 }
@@ -113,6 +118,7 @@
 
 .nav-lg{
   display: grid;
+  padding:0 15px;
   div{
     position: absolute;
     right:20px;
