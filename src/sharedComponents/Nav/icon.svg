@@ -1,0 +1,19 @@
+
+<svg width="264px" height="41px" viewBox="0 0 264 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-TV" transform="translate(-62.000000, -31.000000)">
+            <g id="Group-7" transform="translate(62.000000, 31.000000)">
+                <text id="RBGCOLORS" font-family="Montserrat-Medium, Montserrat" font-size="30" font-weight="400" letter-spacing="1.56749988" fill="#111111">
+                    <tspan x="61" y="31">RBGCOLORS</tspan>
+                </text>
+                <g id="Group-2" fill-rule="nonzero">
+                    <circle id="Oval" fill="#F50057" cx="21.5" cy="9.5" r="9.5"></circle>
+                    <g id="Group" transform="translate(0.000000, 22.000000)">
+                        <ellipse id="Oval" fill="#64DD17" cx="34.1282051" cy="9.5" rx="9.87179487" ry="9.5"></ellipse>
+                        <ellipse id="Oval" fill="#42A5F5" cx="9.87179487" cy="9.5" rx="9.87179487" ry="9.5"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
